@@ -10,14 +10,11 @@ A comprehensive platform for managing IoT devices in a home environment with rol
 ## Table of Contents
 1. [About](#about)
 2. [Features](#features)
-3. [Architecture](#architecture)
-4. [Technologies](#technologies)
-5. [Getting Started](#getting-started)
-6. [API Documentation](#api-documentation)
-7. [Role-Based Access Control](#role-based-access-control)
-8. [Device Integration](#device-integration)
-9. [Contributing](#contributing)
-10. [License](#license)
+3. [Technologies](#technologies)
+4. [Getting Started](#getting-started)
+5. [API Documentation](#api-documentation)
+6. [Role-Based Access Control](#role-based-access-control)
+7. [License](#license)
 
 ## About
 This project provides a centralized platform to connect, manage, and automate various IoT devices within a home environment. The platform implements a robust role-based access control system, allowing different levels of access based on user roles (admin, family member, guest, etc.), ensuring security and privacy while maintaining ease of use.
@@ -26,6 +23,7 @@ This project provides a centralized platform to connect, manage, and automate va
 Core functionality:
 - [ ] Centralized device management and monitoring
 - [ ] Role-based access control with customizable permissions
+- [ ] 2FA verivication via email
 - [ ] Real-time device status updates
 - [ ] Automated actions based on triggers and conditions
 - [ ] Secure API for third-party integration
