@@ -78,27 +78,6 @@ The application will be available at http://localhost:8080
 Admin dashboard will be accessible at http://localhost:8080/admin
 API documentation will be available at http://localhost:8080/swagger-ui/index.html
 
-### Manual Setup
-1. Configure the database:
-```bash
-# Create database (if not using Docker)
-createdb homeiot
-
-# Update application.properties with your database credentials
-```
-
-2. Start the Spring Boot application:
-```bash
-./mvnw spring-boot:run
-```
-
-3. Start the Python device connectors:
-```bash
-cd device-connectors
-pip install -r requirements.txt
-python main.py
-```
-
 ## API Documentation
 The API is fully documented using OpenAPI/Swagger. Once the application is running, you can access the documentation at:
 
@@ -112,28 +91,6 @@ The platform implements a flexible role-based access control system with the fol
 - **Child**: Limited access to certain devices and restricted configuration abilities
 - **Guest**: Temporary access to specific devices with time limitations
 - **Device**: Special role for device-to-device communication
-
-Custom roles can be created with granular permission settings through the admin interface.
-
-## Device Integration
-The platform supports integration with various IoT protocols and devices:
-
-1. Add a new device through the admin interface
-2. Select the appropriate protocol (MQTT, ZigBee, Z-Wave, etc.)
-3. Configure device-specific settings
-4. Assign permissions to different user roles
-5. Create automations and triggers for the device
-
-Python-based connectors handle the communication details with each protocol, making it easy to add support for new device types.
-
-## Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
