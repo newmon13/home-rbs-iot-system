@@ -23,7 +23,7 @@ This project provides a centralized platform to connect, manage, and automate va
 Core functionality:
 - [ ] Centralized device management and monitoring
 - [ ] Role-based access control with customizable permissions
-- [ ] 2FA verivication via email
+- [ ] 2FA verification via email
 - [ ] Real-time device status updates
 - [ ] Automated actions based on triggers and conditions
 - [ ] Secure API for third-party integration
