@@ -24,53 +24,31 @@ This project provides a centralized platform to connect, manage, and automate va
 
 ## Features
 Core functionality:
-- ✅ Centralized device management and monitoring
-- ✅ Role-based access control with customizable permissions
-- ✅ Real-time device status updates
-- ✅ Automated actions based on triggers and conditions
-- ✅ Secure API for third-party integration
-
-Planned features:
-- 🔄 Mobile app integration
-- 🔄 Voice command support
-- 🔄 Machine learning for behavior patterns
-- 🔄 Energy consumption optimization
-- 🔄 Comprehensive notification system
-
-## Architecture
-The platform follows a microservices architecture:
-- **Java Spring Backend**: Handles authentication, authorization, user management, and core business logic
-- **Python Services**: Manage device communication, protocol translation, and integration with various IoT protocols
-- **RESTful API**: Provides standardized interfaces for frontend and third-party applications
-- **WebSocket Connections**: Enable real-time updates and notifications
+- [ ] Centralized device management and monitoring
+- [ ] Role-based access control with customizable permissions
+- [ ] Real-time device status updates
+- [ ] Automated actions based on triggers and conditions
+- [ ] Secure API for third-party integration
 
 ## Technologies
 - **Backend**:
   - Java 17
   - Spring Boot 3.2.0
-  - Spring Security
-  - Spring Data JPA
-  - JWT Authentication
   
 - **Device Integration**:
   - Python 3.11
-  - MQTT
-  - ZigBee
-  - Z-Wave
-  - Bluetooth LE
   
 - **Database**:
   - PostgreSQL
-  - Redis (for caching)
   
 - **DevOps**:
   - Docker
   - Docker Compose
-  - GitHub Actions
   
 - **Testing**:
   - JUnit
-  - Mockito
+  - Mockit
+  - Testcontainers
   - pytest
 
 ## Getting Started
